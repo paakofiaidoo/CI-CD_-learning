@@ -35,6 +35,6 @@ workflows:
 
   print_hello-workflow:
     jobs:
-      - print-hello
+      - print_hello
 
     
