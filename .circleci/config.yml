@@ -24,7 +24,7 @@ jobs:
       - checkout
       - run:
           name: "Hello World"
-          command: echo "this is PK @ $MY_NAME>>"
+          command: echo $MY_NAME
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
